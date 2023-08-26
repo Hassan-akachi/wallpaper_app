@@ -84,9 +84,9 @@ class SearchScreen extends StatelessWidget {
                       );
                     }
                     if (snapshot.data == null) {
-                      return  Center(child: Column(mainAxisAlignment: MainAxisAlignment.center,
-                        children: const [CircularProgressIndicator(),
-                          Text("Network problem !"),
+                      return  const Center(child: Column(mainAxisAlignment: MainAxisAlignment.center,
+                        children: [CircularProgressIndicator(),
+                          // Text("Network problem !"),
                         ],
                       ));
                     } else if (snapshot.hasError) {

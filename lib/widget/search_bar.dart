@@ -4,10 +4,10 @@ import 'package:wallpaper_app/screens/search_screen.dart';
 
 import '../Utils/style.dart';
 
-class SearchBar extends StatelessWidget {
+class SearchBarWidget extends StatelessWidget {
 
 
-  const SearchBar({super.key, });
+  const SearchBarWidget({super.key, });
 
   @override
   Widget build(BuildContext context) {

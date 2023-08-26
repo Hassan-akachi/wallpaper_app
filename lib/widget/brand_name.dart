@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class BrandName extends StatelessWidget with PreferredSizeWidget {
+class BrandName extends StatelessWidget implements PreferredSizeWidget {
   const BrandName({super.key});
 
   @override
